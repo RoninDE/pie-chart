@@ -104,7 +104,6 @@ function WrapSectorParts(target, startAngle, endAngle) {
     
     }
 
-
 drawCanvasChart();
 
 for (i = 0; i < data.length; i++) {

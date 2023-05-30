@@ -45,7 +45,7 @@
     border-radius: 115px;
 }
 
-.sector:hover {
+.sectorWrapper:hover .sector{
     height: 180px;
     width: 180px;
     border: 25px solid;
