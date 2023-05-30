@@ -1,3 +1,52 @@
 .pie-chart img {
     height: 400px;
 }
+
+#chart-2 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+}
+
+.sectorWrapper {
+    position: absolute;
+    display: flex;
+    width: 230px;
+    height: 230px;
+    left: 85px;
+    top: 85px;
+} 
+
+.sectorPart, .sectorMask {
+    position: absolute;
+    display: flex;
+    left: 115px;
+    /* top: 80px; */
+    height: 115px;
+    width: 115px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    
+}
+
+.sectorMask > .sectorPart {
+    left: 0;
+    top: 0;
+}
+
+.sector {
+    position: absolute;
+    display: flex;
+    left: -115px;
+    height: 200px;
+    width: 200px;
+    border: 15px solid;
+    border-radius: 115px;
+}
+
+.sector:hover {
+    height: 180px;
+    width: 180px;
+    border: 25px solid;
+}
